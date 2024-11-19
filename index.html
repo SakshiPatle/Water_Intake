@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Water Tracker</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="heading">How much glass water you <br>take daily?</h1>
+        <div class="header">
+            <div class="title">Water Tracker</div>
+            <div class="calendar-container">
+                <input type="text" id="calendar-input" class="calendar-input" placeholder="Select date">
+            </div>
+        </div>
+        <div class="water-counter">
+            <img src="water_intakes.svg">
+            <p>Total Glasses Today: <span id="totalGlasses">0 glass</span></p>
+            <div class="buttons">
+
+            <div id="addWaterBtn">
+                <img src="plus_Menu.svg" alt="Add Glass"  vertical-align: middle;>
+            </div>
+            <div id="removeWaterBtn">
+                <img src="Minus_Menu.svg" alt="Add Glass"  vertical-align: middle;>
+            </div>
+        </div>
+        </div>
+        <div class="titles">How much water is okay? </div>
+        <p class="paras">Drinking an adequate amount of water daily is crucial for maintaining good health. While specific water intake needs can vary based on factors like age, weight, and activity level.</p>
+        
+        <p class="paras">A general guideline is to aim for about 8 glasses of water per day, which equates to around 2 liters.</p>
+
+        <p class="paras">This amount helps to keep the body hydrated, supports various bodily functions such as digestion and temperature regulation, and contributes to overall well-being.</p>
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="script.js"></script>
+   
+</body>
+</html>
